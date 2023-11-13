@@ -1,0 +1,170 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.maincon{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: rgb(253, 245, 245);
+}
+.subcon{
+    display: flex;
+}
+.logo{
+    flex-basis: 40%;
+    justify-content: flex-start ; 
+    padding: 20px 20px;
+}
+
+.menu{
+flex-basis: 60%;
+display: flex;
+justify-content: flex-end;
+gap: 20px;
+padding: 20px;
+
+}
+.link{
+text-decoration: none;
+color: wheat;
+font-weight: bold;
+font-size: large;
+}
+
+.subconcreatepost{
+
+    width: 280px;
+    height: 250px;
+    background-color: rgb(222, 238, 243);
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    border: solid 0.05px black;
+    border-radius: 8px;
+    
+}
+.mainconcreatepost{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+#submit{
+ margin-left: 50px;
+ margin-top: 30px;
+}
+
+.allpostcont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+.allpostsubcon{
+    padding: 20px;
+    width: 800px;
+    margin: 15px auto;
+
+    
+}
+.but{
+    width: 60px;
+    height: 20px;
+    font-size: 12px;
+    padding: 2px 15px;
+    margin-right: 5px;
+    cursor: pointer;
+    background-color: black;
+    color: rgb(231, 154, 10);
+    gap: 10px;
+}
+.but:hover{
+    background-color: rgb(233, 229, 236);
+
+}
+table{
+    
+    width: 100%;
+    border-collapse: collapse;
+    border-bottom: 1px solid rgb(247, 235, 212);
+    
+    
+}
+th{
+    background-color:  rgb(230, 219, 200);
+}
+.hadding{
+    background-color: rgb(228, 149, 149);
+}
+.maincontain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px ;
+}
+.card{
+    border: 1px solid #aca7a7;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgb(197, 181, 117);
+    width: 300px;
+   
+}
+.data{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(121, 101, 101);
+
+}
+.mainbut{
+display: flex;
+justify-content: space-between;
+}
+.but2{
+padding: 10px;
+border: none;
+background-color:rgb(15, 15, 15);
+color: rgb(237, 237, 241);
+font-size: 13px;
+width: 40px;
+height: 5px;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 3px;
+}
+.upcontmain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+.upcontsub{
+    width: 280px;
+    height: 250px;
+    background-color: rgb(227, 235, 138);
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    border: solid 0.05px black;
+    border-radius: 8px;
+    
+    
+}
+.lab{
+margin-right: 100px;
+gap: 10px;
+margin-top: 15px;
+}
+#bu{
+    margin-top: 30px;
+}
+.inp{
+    background-color: rgb(226, 207, 207);
+}
+
+
